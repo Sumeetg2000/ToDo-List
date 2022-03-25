@@ -1,0 +1,23 @@
+.task{
+    margin: 8% 15% 10% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.task{
+    font-size: 2vh;
+}
+.completed.task{
+    color: gray;
+}
+.circle{
+    width: 2vh;
+    height: 2vh;
+    border: 1px solid gray;
+    border-radius: 100%;
+    display: inline-block;
+}
+.completed .circle{
+    background-color: #4fe3a4;
+    border-color: #31a372;
+}
+ 
