@@ -1,0 +1,19 @@
+.inputBlock{
+    border: none;
+    position: absolute;
+    bottom: .4vh;
+    left: 27%;
+}
+.inputBlock input{
+    width: 70%;
+    font-size: large;
+    border-style: outset;
+    padding: 2%;
+    border: .5px solid;
+    background-color: #c9c9c9;
+}
+.inputBlock input:focus{
+    border-style: inset;
+    outline: slategray;
+    background-color: lightblue;
+}

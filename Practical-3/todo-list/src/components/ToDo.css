@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.to-do{
+    background-color: white;
+    min-width: 21%;
+    margin-top:8% ;
+    position: relative;
+    height: 65vh;
+    box-shadow: 0 2px 4px 0 #f5f5f5, 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.to-do .addTask{
+    border-radius: 100%;
+    background-color: #50E3A4;
+    height: 9vh;
+    width: 9vh;
+    border: none;
+    font-size: 4vh;
+    color: rgba(158, 158, 158, 0.795);
+    position: absolute;
+    bottom: -7%;
+    left: 40%;
+}
+.to-do .addTask:hover{
+    background-color: #31cc89;
+}
