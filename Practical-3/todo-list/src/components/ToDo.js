@@ -43,7 +43,7 @@ const getTodoItems = () => {
                 const newDate=new Date().toLocaleDateString();
                 const taskDate=localStorage.getItem("TaskDate");
                 if(newDate !== taskDate){
-                        localStorage.removeItem("Tasks")
+                        localStorage.removeItem("Tasks");
                 }                
         },[tasks]);
 
