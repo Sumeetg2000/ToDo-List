@@ -1,0 +1,14 @@
+.displayTask{
+    overflow-y: auto;
+    height: 43vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.displayTask::-webkit-scrollbar {
+    display: none;
+}
+ul{
+    list-style-type:none;
+    margin-bottom: 20%;
+}
